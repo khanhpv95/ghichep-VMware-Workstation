@@ -67,30 +67,39 @@ Cấu hình lí tưởng:
 <img src="https://cloud.githubusercontent.com/assets/16606859/14797489/3f34e0b0-0b5d-11e6-8996-524f7a06b82c.png">
 
 **Bước 2:** Tíck chọn **"I accept the terms in the license agreement"** và nhấn **"Next"**.
+
 <img src="https://cloud.githubusercontent.com/assets/16606859/14797491/41ad1eac-0b5d-11e6-9cb2-53f6ecb3afc8.png">
 
 **Bước 3:** Nhấn **"Change"** nếu muốn thay đổi đường dẫn, nhấn **"Next"** để tiếp tục.
+
 <img src="https://cloud.githubusercontent.com/assets/16606859/14797494/42941c1c-0b5d-11e6-93df-132c0e7a07fa.png">
 
 **Bước 4:** Nhấp vào 2 ô **"Check for product updates on startup"** và **"Help improve VMware Workstation Pro"**, nhấn **"Next"** để tiếp tục.
+
 <img src="https://cloud.githubusercontent.com/assets/16606859/14797496/43bc9dda-0b5d-11e6-8e42-8ae5addbc1f3.png">
 
 **Bước 5:** Nhấp vào ô **"Desktop"**, nhấn **"Next"** để tiếp tục.
+
 <img src="https://cloud.githubusercontent.com/assets/16606859/14797499/44e3edb2-0b5d-11e6-8cf1-5f838075d320.png">
 
 **Bước 6:** Nhấn **"Install"** để tiếp tục cài đặt.
+
 <img src="https://cloud.githubusercontent.com/assets/16606859/14797501/4604fefc-0b5d-11e6-8bd2-3fa1e72b2010.png">
 
 **Bước 7:** Nhấn **"Finish"**.
+
 <img src="https://cloud.githubusercontent.com/assets/16606859/14797502/477a3676-0b5d-11e6-89a0-1b4ed44e3f35.png">
 
 **Bước 8:** Nhập license key vào ô màu đỏ và nhấn **"continue"** để tiếp tục.
+
 <img src="https://cloud.githubusercontent.com/assets/16606859/14797505/494eb27e-0b5d-11e6-921b-503da07b6da7.png">
 
 **Bước 9:** Nhấn **"Finish"** để kết thúc cài đặt.
+
 <img src="https://cloud.githubusercontent.com/assets/16606859/14797506/4a234e4e-0b5d-11e6-9e06-619426e332e9.png">
 
 **"Thành quả: "**
+
 <img src="https://cloud.githubusercontent.com/assets/16606859/14797508/4b9d01f2-0b5d-11e6-8f8d-57168677144c.png">
 
 
