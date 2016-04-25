@@ -4,9 +4,9 @@
 
 [I.Giới thiệu về VMware Workstation](#gioi-thieu)
 
-* [1.Giới thiệu về VMware Workstation](#gioi-thieu1)
+* [1.Giới thiệu về VMware Workstation](#gioi-thieu)
 
-* [2.Các tính năng của VMware Workstation](#gioi-thieu2)
+* [2.Các tính năng của VMware Workstation](#gioi-thieu)
 
 [II.Hướng dẫn sử dụng và cấu hình](#cau-hinh)
 * [*Cấu hình tối thiểu](#cau-hinh-min)
