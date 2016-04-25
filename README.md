@@ -49,12 +49,17 @@ Với hàng triệu khách hàng và hàng loạt các giải thưởng quan tr�
 
 ###<a name="cau-hinh"></a> II.Hướng dẫn sử dụng và cấu hình <a name="cau-hinh"></a>
 ####<a name="cau-hinh-min"></a>*Cấu hình tối thiểu<a name="cau-hinh-min"></a>
+Theo như nhà phát hành thì cấu hình có thể sử dụng VMware Workstation Pro 12 đó là:
   <ul>
-  <li>Hỗ trợ nhiều màn hình – Bạn có thể thiết lập để một VM trải rộng ra nhiều màn hình, hoặc nhiều VM, với mỗi VM trên một màn hình riêng biệt. </li>
-  <li>Hỗ trợ các thiết bị USB 2.0 – Bây giờ bạn đã có thể sử dụng các thiết bị ngọai vi yêu cầu tốc độ làm việc cao trên VM, như máy MP3 và các thiết bị lưu trữ di động khác.</li>
-  <li>VM Record/Replay – Bạn có thể sử dụng tính năng này để thu lại các hoạt động của VM và được đảm bảo là sẽ tái lập lại tình trạng của VM chính xác 100%.</li>
-  <li>Integrated Virtual Debugger – Workstation được tích hợp Visual Studio và Eclipse nên bạn có thể trực tiếp sử dụng, chạy và vá các lỗ hổng của các chương trình trong một VM từ một IDE yêu thích  </li>
-  <li>Automation APIs (VIX API 2.0) – Bạn có thể viết script hay chương trình để VM tự động thực hiện việc kiểm tra. </li>
+  <li>Hệ điều hành chạy trên nền tảng 64-bit. </li>
+  <li>Chip Intel Core 2 Duo Processor, AMD Athlon ™ 64 FX Dual Core Processor hoặc cao hơn.</li>
+  <li>Tốc độ xử lý tối thiểu là 1.3GHz.</li>
+  <li>Ram tối thiểu là 2GB.</li>
+  </ul>
+Cấu hình lí tưởng:
+  <ul>
+  <li>Đối với Laptop: Corei5 trở lên và Ram 4GB trở lên. </li>
+  <li>Đối với máy tính PC (máy bàn): Corei3 và RAM 4GB trở lên.</li>
   </ul>
 ####<a name="cau-hinh1"></a>1.Cài đặt VMware Workstation trên Windowns<a name="cau-hinh1"></a>
 
