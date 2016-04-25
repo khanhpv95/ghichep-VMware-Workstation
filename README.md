@@ -25,7 +25,7 @@ VMware Workstation là một phần mềm ảo hóa desktop mạnh mẽ dành ch
 Với hàng triệu khách hàng và hàng loạt các giải thưởng quan trọng trong nhiều năm qua, VMware Workstation đã được chứng minh là một công ghệ giúp tăng năng suất và sự linh họat trong công việc. Đây là một công cụ không thể thiếu cho các nhà phát triển phần mềm và các chuyên gia IT trên toàn thế giới.
 
 
-####2.Các tính năng của VMware Workstation <a name="gioi-thieu2"></a>
+####<a name="gioi-thieu2"></a>2.Các tính năng của VMware Workstation <a name="gioi-thieu2"></a>
 - Những tính năng chính
   <ul>
   <li>Khởi chạy đồng thời nhiều hệ điều hành khách trên một máy tính. </li>
@@ -47,8 +47,8 @@ Với hàng triệu khách hàng và hàng loạt các giải thưởng quan tr�
   </ul>
 
 
-### II.Hướng dẫn sử dụng và cấu hình <a name="cau-hinh"></a>
-####*Cấu hình tối thiểu<a name="cau-hinh-min"></a>
+###<a name="cau-hinh"></a> II.Hướng dẫn sử dụng và cấu hình <a name="cau-hinh"></a>
+####<a name="cau-hinh-min"></a>*Cấu hình tối thiểu<a name="cau-hinh-min"></a>
   <ul>
   <li>Hỗ trợ nhiều màn hình – Bạn có thể thiết lập để một VM trải rộng ra nhiều màn hình, hoặc nhiều VM, với mỗi VM trên một màn hình riêng biệt. </li>
   <li>Hỗ trợ các thiết bị USB 2.0 – Bây giờ bạn đã có thể sử dụng các thiết bị ngọai vi yêu cầu tốc độ làm việc cao trên VM, như máy MP3 và các thiết bị lưu trữ di động khác.</li>
@@ -56,5 +56,5 @@ Với hàng triệu khách hàng và hàng loạt các giải thưởng quan tr�
   <li>Integrated Virtual Debugger – Workstation được tích hợp Visual Studio và Eclipse nên bạn có thể trực tiếp sử dụng, chạy và vá các lỗ hổng của các chương trình trong một VM từ một IDE yêu thích  </li>
   <li>Automation APIs (VIX API 2.0) – Bạn có thể viết script hay chương trình để VM tự động thực hiện việc kiểm tra. </li>
   </ul>
-####1.Cài đặt VMware Workstation trên Windowns<a name="cau-hinh1"></a>
+####<a name="cau-hinh1"></a>1.Cài đặt VMware Workstation trên Windowns<a name="cau-hinh1"></a>
 
