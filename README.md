@@ -11,8 +11,8 @@
 * [2.Các tính năng của VMware Workstation](#gioi-thieu2)
 
 [II.Hướng dẫn sử dụng và cấu hình](#cau-hinh)
-* [*Cấu hình tối thiểu](#cau-hinh-min)
-* [1.Giới thiệu về VMware Workstation](#cau-hinh1)
+* [1.Cấu hình tối thiểu](#cau-hinh-min)
+* [2.Giới thiệu về VMware Workstation](#cau-hinh1)
 
 ----
 
@@ -48,7 +48,7 @@ Với hàng triệu khách hàng và hàng loạt các giải thưởng quan tr�
 
 
 ###<a name="cau-hinh"></a> II.Hướng dẫn sử dụng và cấu hình <a name="cau-hinh"></a>
-####<a name="cau-hinh-min"></a>*Cấu hình tối thiểu<a name="cau-hinh-min"></a>
+####<a name="cau-hinh-min"></a>1.Cấu hình tối thiểu<a name="cau-hinh-min"></a>
 Theo như nhà phát hành thì cấu hình có thể sử dụng VMware Workstation Pro 12 đó là:
   <ul>
   <li>Hệ điều hành chạy trên nền tảng 64-bit. </li>
@@ -61,5 +61,5 @@ Cấu hình lí tưởng:
   <li>Đối với Laptop: Corei5 trở lên và Ram 4GB trở lên. </li>
   <li>Đối với máy tính PC (máy bàn): Corei3 và RAM 4GB trở lên.</li>
   </ul>
-####<a name="cau-hinh1"></a>1.Cài đặt VMware Workstation trên Windowns<a name="cau-hinh1"></a>
+####<a name="cau-hinh1"></a>2.Cài đặt VMware Workstation trên Windowns<a name="cau-hinh1"></a>
 
