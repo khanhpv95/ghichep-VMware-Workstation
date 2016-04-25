@@ -63,6 +63,6 @@ Cấu hình lí tưởng:
   </ul>
 ####<a name="cau-hinh1"></a>2.Cài đặt VMware Workstation trên Windowns<a name="cau-hinh1"></a>
 **Bước 1:** Mở file cài đặt nhấn **"Next"**
-<img src="http://imgur.com/ec44Gla">
+<img src="https://cloud.githubusercontent.com/assets/16606859/14797489/3f34e0b0-0b5d-11e6-8996-524f7a06b82c.png">
 
 
