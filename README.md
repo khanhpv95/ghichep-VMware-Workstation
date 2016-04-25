@@ -62,4 +62,6 @@ Cấu hình lí tưởng:
   <li>Đối với máy tính PC (máy bàn): Corei3 và RAM 4GB trở lên.</li>
   </ul>
 ####<a name="cau-hinh1"></a>2.Cài đặt VMware Workstation trên Windowns<a name="cau-hinh1"></a>
+**Bước 1:**Mở file cài đặt nhấn "Next".
+<img src="http://prnt.sc/aws0i7">
 
