@@ -16,10 +16,12 @@
 
 
 ### I.Giới thiệu về VMware Workstation <a id="gioi-thieu"></a>
+
 ####1.Giới thiệu về VMware Workstation
 VMware Workstation là một phần mềm ảo hóa desktop mạnh mẽ dành cho các nhà phát triển/kiểm tra phần mềm và các chuyên gia IT cần chạy nhiều HĐH một lúc trên một máy vật lý. Mỗi máy ảo có thể chạy một hệ điều hành riêng biệt bao gồm các phiên bản của Microsoft Windows, Linux, BSD, và MS-DOS. VMware Workstation được phát hành và phát triển bởi VMware, một thành viên của EMC Corporation. 
 
 Với hàng triệu khách hàng và hàng loạt các giải thưởng quan trọng trong nhiều năm qua, VMware Workstation đã được chứng minh là một công ghệ giúp tăng năng suất và sự linh họat trong công việc. Đây là một công cụ không thể thiếu cho các nhà phát triển phần mềm và các chuyên gia IT trên toàn thế giới.
+
 
 ####2.Các tính năng của VMware Workstation
 - Những tính năng chính
