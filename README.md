@@ -4,11 +4,13 @@
 
 [I.Giới thiệu về VMware Workstation](#gioi-thieu)
 
-[II.Các tính năng của VMware Workstation](https://github.com/thangnn2405/ghichep-VMware-Workstation#II.Các tính năng của VMware Workstation)
+[II.Các tính năng của VMware Workstation](#tinh-nang)
 
-[III.Hướng dẫn sử dụng và cấu hình](https://github.com/thangnn2405/ghichep-VMware-Workstation#III.Hướng dẫn sử dụng và cấu hình)
+[III.Hướng dẫn sử dụng và cấu hình](#cau-hinh)
 
 ----
 
 
 ### I.Giới thiệu về VMware Workstation <a id="gioi-thieu"></a>
+### II.Các tính năng của VMware Workstation <a id="tinh-nang"></a>
+### III.Hướng dẫn sử dụng và cấu hình <a id="cau-hinh"></a>
