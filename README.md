@@ -12,7 +12,7 @@
 
 [II.Hướng dẫn sử dụng và cấu hình](#cau-hinh)
 * [1.Cấu hình tối thiểu](#cau-hinh-min)
-* [2.Giới thiệu về VMware Workstation](#cau-hinh1)
+* [2.Cài đặt VMware Workstation trên Windowns](#cau-hinh1)
 
 ----
 
