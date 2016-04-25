@@ -21,7 +21,7 @@ VMware Workstation là một phần mềm ảo hóa desktop mạnh mẽ dành ch
 
 Với hàng triệu khách hàng và hàng loạt các giải thưởng quan trọng trong nhiều năm qua, VMware Workstation đã được chứng minh là một công ghệ giúp tăng năng suất và sự linh họat trong công việc. Đây là một công cụ không thể thiếu cho các nhà phát triển phần mềm và các chuyên gia IT trên toàn thế giới.
 
-####2.Các tính năng của VMware Workstation <a id="gioi-thieu2"></a>
+####2.Các tính năng của VMware Workstation
 - Những tính năng chính
   <ul>
   <li>Khởi chạy đồng thời nhiều hệ điều hành khách trên một máy tính. </li>
