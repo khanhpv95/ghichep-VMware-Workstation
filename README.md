@@ -15,7 +15,7 @@
 ----
 
 
-### I.Giới thiệu về VMware Workstation <a id="gioi-thieu"></a>
+### I.Giới thiệu về VMware Workstation <a name="gioi-thieu"></a>
 
 ####1.Giới thiệu về VMware Workstation
 VMware Workstation là một phần mềm ảo hóa desktop mạnh mẽ dành cho các nhà phát triển/kiểm tra phần mềm và các chuyên gia IT cần chạy nhiều HĐH một lúc trên một máy vật lý. Mỗi máy ảo có thể chạy một hệ điều hành riêng biệt bao gồm các phiên bản của Microsoft Windows, Linux, BSD, và MS-DOS. VMware Workstation được phát hành và phát triển bởi VMware, một thành viên của EMC Corporation. 
@@ -45,8 +45,8 @@ Với hàng triệu khách hàng và hàng loạt các giải thưởng quan tr�
   </ul>
 
 
-### II.Hướng dẫn sử dụng và cấu hình <a id="cau-hinh"></a>
-####*Cấu hình tối thiểu<a id="cau-hinh-min"></a>
+### II.Hướng dẫn sử dụng và cấu hình <a name="cau-hinh"></a>
+####*Cấu hình tối thiểu<a name="cau-hinh-min"></a>
   <ul>
   <li>Hỗ trợ nhiều màn hình – Bạn có thể thiết lập để một VM trải rộng ra nhiều màn hình, hoặc nhiều VM, với mỗi VM trên một màn hình riêng biệt. </li>
   <li>Hỗ trợ các thiết bị USB 2.0 – Bây giờ bạn đã có thể sử dụng các thiết bị ngọai vi yêu cầu tốc độ làm việc cao trên VM, như máy MP3 và các thiết bị lưu trữ di động khác.</li>
@@ -54,5 +54,5 @@ Với hàng triệu khách hàng và hàng loạt các giải thưởng quan tr�
   <li>Integrated Virtual Debugger – Workstation được tích hợp Visual Studio và Eclipse nên bạn có thể trực tiếp sử dụng, chạy và vá các lỗ hổng của các chương trình trong một VM từ một IDE yêu thích  </li>
   <li>Automation APIs (VIX API 2.0) – Bạn có thể viết script hay chương trình để VM tự động thực hiện việc kiểm tra. </li>
   </ul>
-####1.Cài đặt VMware Workstation trên Windowns<a id="cau-hinh1"></a>
+####1.Cài đặt VMware Workstation trên Windowns<a name="cau-hinh1"></a>
 
