@@ -11,21 +11,21 @@
 * [2.Các tính năng của VMware Workstation](#gioi-thieu2)
 
 [II.Hướng dẫn sử dụng và cấu hình](#cau-hinh)
-* [1.Cấu hình tối thiểu](#cau-hinh-min)
-* [2.Cài đặt VMware Workstation trên Windowns](#cau-hinh1)
+* [1.Cấu hình tối thiểu](#cau-hinh1)
+* [2.Cài đặt VMware Workstation trên Windowns](#cau-hinh2)
 
 ----
 
-### <a name="gioi-thieu"></a>I.Giới thiệu về VMware Workstation <a name="gioi-thieu"></a>
+### <a name="gioi-thieu"></a>I.Giới thiệu về VMware Workstation
 
 
-####<a name="gioi-thieu1"></a>1.Giới thiệu về VMware Workstation <a name="gioi-thieu1"></a>
+####<a name="gioi-thieu1"></a>1.Giới thiệu về VMware Workstation
 VMware Workstation là một phần mềm ảo hóa desktop mạnh mẽ dành cho các nhà phát triển/kiểm tra phần mềm và các chuyên gia IT cần chạy nhiều HĐH một lúc trên một máy vật lý. Mỗi máy ảo có thể chạy một hệ điều hành riêng biệt bao gồm các phiên bản của Microsoft Windows, Linux, BSD, và MS-DOS. VMware Workstation được phát hành và phát triển bởi VMware, một thành viên của EMC Corporation. 
 
 Với hàng triệu khách hàng và hàng loạt các giải thưởng quan trọng trong nhiều năm qua, VMware Workstation đã được chứng minh là một công ghệ giúp tăng năng suất và sự linh họat trong công việc. Đây là một công cụ không thể thiếu cho các nhà phát triển phần mềm và các chuyên gia IT trên toàn thế giới.
 
 
-####<a name="gioi-thieu2"></a>2.Các tính năng của VMware Workstation <a name="gioi-thieu2"></a>
+####<a name="gioi-thieu2"></a>2.Các tính năng của VMware Workstation
 - Những tính năng chính
   <ul>
   <li>Khởi chạy đồng thời nhiều hệ điều hành khách trên một máy tính. </li>
@@ -47,8 +47,8 @@ Với hàng triệu khách hàng và hàng loạt các giải thưởng quan tr�
   </ul>
 
 
-###<a name="cau-hinh"></a> II.Hướng dẫn sử dụng và cấu hình <a name="cau-hinh"></a>
-####<a name="cau-hinh-min"></a>1.Cấu hình tối thiểu<a name="cau-hinh-min"></a>
+###<a name="cau-hinh"></a> II.Hướng dẫn sử dụng và cấu hình
+####<a name="cau-hinh1"></a>1.Cấu hình tối thiểu
 Theo như nhà phát hành thì cấu hình có thể sử dụng VMware Workstation Pro 12 đó là:
   <ul>
   <li>Hệ điều hành chạy trên nền tảng 64-bit. </li>
@@ -61,7 +61,7 @@ Cấu hình lí tưởng:
   <li>Đối với Laptop: Corei5 trở lên và Ram 4GB trở lên. </li>
   <li>Đối với máy tính PC (máy bàn): Corei3 và RAM 4GB trở lên.</li>
   </ul>
-####<a name="cau-hinh1"></a>2.Cài đặt VMware Workstation trên Windowns<a name="cau-hinh1"></a>
+####<a name="cau-hinh2"></a>2.Cài đặt VMware Workstation trên Windowns
 **Bước 1:** Mở file cài đặt nhấn **"Next"**.
 
 <img src="https://cloud.githubusercontent.com/assets/16606859/14797489/3f34e0b0-0b5d-11e6-8996-524f7a06b82c.png">
