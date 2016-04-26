@@ -250,11 +250,12 @@ Các thành phần hình thành nên mạng ảo trong VMware gồm **switch ả
 <img src="https://cloud.githubusercontent.com/assets/16606859/14812610/0ad3c5c8-0bc8-11e6-8fb2-5efc83d28152.png">
 
 Khi ta tạo các VMnet thì trên máy thật của ta sẽ tạo ra những card mạng ảo tương ứng, riêng VMnet0 kết nối trực tiếp với card mạng vật lý nên không tạo ra card VMnet.
+<img src="https://cloud.githubusercontent.com/assets/16606859/14815534/1d64d110-0bd6-11e6-856a-bd6943c12fe4.png">
 #####<a name="card-mang-ao"></a>b.Card mạng ảo (Virtual Network Adapter)
 
 Khi tạo một máy ảo mới (New Virtual Machine wizard), card mạng ảo được tạo ra cho máy ảo. Những card mạng này hiển thị trên hệ điều hành máy ảo như là AMD PCNET PCI hay Intel Pro/1000 MT Server Adapter
 
-<img src="https://cloud.githubusercontent.com/assets/16606859/14812610/0ad3c5c8-0bc8-11e6-8fb2-5efc83d28152.png">
+<img src="https://cloud.githubusercontent.com/assets/16606859/14813158/9fcc4f2c-0bca-11e6-9caa-27f2c26afdbf.png">
 
 Kiểu mạng Briged : cho phép card mạng máy ảo kết nối trực tiếp với card mạng máy thật, giống như khi chúng được kết nối vào chung một switch. Khi đó, địa chỉ IP của máy ảo phải nằm cùng subnet với địa chỉ IP mà card mạng máy thật đang dùng. Đây là lựa chọn thường được sử dụng nhiều nhất khi tạo một mạng máy tính ảo.
 Kiểu mạng NAT: máy ảo sẽ nằm ở một vùng địa chỉ IP khác và phải thực hiện việc kỹ thuật chuyển đổi địa chỉ (NAT) khi liên lạc với máy tính bên ngoài.
