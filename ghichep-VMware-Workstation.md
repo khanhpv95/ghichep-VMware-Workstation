@@ -18,21 +18,13 @@
 
 * [3.Cài đặt VMware Workstation trên Linux](#cau-hinh3)
  
-[III.Card mạng và Network](#network)
+[III.Card mạng trong VMware Workstation](#network)
 
-* [1.Card mạng trong VMware](#card-mang)
+* [1.Switch ảo ( Virtual Switch)](#switch-ao)
 
- * [a.Switch ảo ( Virtual Switch)](#switch-ao)
-
- * [b.Card mạng ảo ( Virtual Network Adapter)](#card-mang-ao)
+* [2.Card mạng ảo ( Virtual Network Adapter)](#card-mang-ao)
  
- * [c.DHCP server ảo (Virtual DHCP Server)](#dhcp-ao)
-
-
-
-* [2.Network trong VMware Workstation](#network-1) 
-
-
+* [3.DHCP server ảo (Virtual DHCP Server)](#dhcp-ao)
 
 ----
 
@@ -244,7 +236,7 @@ Sử dụng máy ảo để triển khai một môi trường đa hệ điều h
 Các thành phần hình thành nên mạng ảo trong VMware gồm **switch ảo**, **card mạng ảo**, **DHCP server ảo** và **thiết bị NAT**.
 
 
-#####<a name="switch-ao"></a>a.Switch ảo (Virtual Switch)
+#####<a name="switch-ao"></a>1.Switch ảo (Virtual Switch)
 **Switch ảo (Virtual Switch)** cũng giống như switch vật lý, một Virtual Switch kết nối các thành phần mạng ảo lại với nhau. Những  switch ảo hay còn gọi là mạng ảo, chúng có tên là VMnet0, VMnet1, VMnet2… một số switch ảo được gắn vào mạng một cách mặc định. Mặc định khi ta cài Wmware thì có sẵn 3 Switch ảo như sau: VMnet0 chế độ Bridged (cầu nối), VMnet8 chế độ NAT và VMnet1 chế độ Host-only. (Ta có thể thêm, bớt, chỉnh các option của VMnet bằng cách vào menu **Edit -> Virtual Network Editor**...)
 
 <img src="https://cloud.githubusercontent.com/assets/16606859/14812610/0ad3c5c8-0bc8-11e6-8fb2-5efc83d28152.png">
@@ -253,7 +245,7 @@ Khi ta tạo các VMnet thì trên máy thật của ta sẽ tạo ra những ca
 
 <img src="https://cloud.githubusercontent.com/assets/16606859/14815534/1d64d110-0bd6-11e6-856a-bd6943c12fe4.png">
 
-#####<a name="card-mang-ao"></a>b.Card mạng ảo (Virtual Network Adapter)
+#####<a name="card-mang-ao"></a>2.Card mạng ảo (Virtual Network Adapter)
 
 Khi tạo một máy ảo mới (New Virtual Machine wizard), card mạng ảo được tạo ra cho máy ảo. Những card mạng này hiển thị trên hệ điều hành máy ảo như là AMD PCNET PCI hay Intel Pro/1000 MT Server Adapter
 
@@ -282,7 +274,8 @@ Một điều lưu ý là khi bạn copy một máy ảo thì chúng ta nên tha
 
 
 `Mẹo: Trong trường hợp bạn cần làm lab Load balancing, bạn cần 2 kết nối internet thì trên máy ảo bạn có thể add 2 card mạng, một card chọn cơ chế NAT và một card chọn cơ chế Bridge.`
-### <a name="dhcp-ao"></a>c.DHCP Server ảo (Virtual DHCP Server)
+
+### <a name="dhcp-ao"></a>3.DHCP Server ảo (Virtual DHCP Server)
 
 **DHCP (Dynamic Host Configuration) server ảo** cung cấp địa chỉ IP cho các máy ảo trong việc kết nối máy ảo vào các Switch ảo không có tính năng Bridged (VMnet0). Ví dụ như DHCP ảo cấp đến các máy ảo có kết nối đến Host-only và NAT.
 
