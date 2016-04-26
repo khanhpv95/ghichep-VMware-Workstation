@@ -120,23 +120,62 @@ Cấu hình lí tưởng:
 
 **Bước 2:** Chuyển sang tài khoản root với dòng lệnh:
 `su -`  
+
 Cài đặt các Tools hỗ trợ với lệnh:
 
 `yum groupinstall "Development tools`
 
-<img src="https://cloud.githubusercontent.com/assets/16606859/14807442/ed7fea9a-0ba6-11e6-93d8-3670cad2e21e.png">
+c
 
 **Bước 3:** Cài VMware Tools:
 
 `yum install kernel-headers kernel-devel -y`
 
 
-**Bước 4:** Sau khi tải thành công file download ở Bước 1. Tiến hành phân quyền cho file
+**Bước 4:** Sau khi tải thành công file download ở Bước 1. Truy cập tới thư mục chứa file và tiến hành phân quyền cho file
+`chmod u+x tênfile`
 
+Ví dụ:
 
-<img src="https://cloud.githubusercontent.com/assets/16606859/14807438/ea33be34-0ba6-11e6-83cf-8cba679e9665.png">
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807446/f579fa4c-0ba6-11e6-8643-da91fe290df6.png">
 
+**Bước 5:** Tiến hành giải nén file cài đặt
 
+`./tênfile`
+
+Ví dụ:
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807449/f8da98c2-0ba6-11e6-955a-43a7a318df7c.png">
+
+Các bước cài đặt tiếp theo:
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807451/faed0500-0ba6-11e6-83f6-a4d3a473dbd3.png">
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807453/fbcc6e8e-0ba6-11e6-96c2-88d7b01692f3.png">
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807454/fc90b5aa-0ba6-11e6-98db-cb16251944c4.png">
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807455/fd669f80-0ba6-11e6-989b-382a2d09e1c1.png">
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807457/ff790c7c-0ba6-11e6-9bbb-75140ffcad1e.png">
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807460/010332ca-0ba7-11e6-823f-3180e12f0156.png">
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807461/01b572c8-0ba7-11e6-9432-b34f922128e9.png">
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807462/026ef8f6-0ba7-11e6-948f-ecd8855bb5c8.png">
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807463/035e1a94-0ba7-11e6-8a5a-0803196abd93.png">
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807464/04351d78-0ba7-11e6-9049-2d77aff16a22.png">
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807465/05024b22-0ba7-11e6-8b84-b899458b550f.png">
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807466/05f29afa-0ba7-11e6-809a-b674b77db9f2.png">
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807467/06d8a3ec-0ba7-11e6-8029-bce2d7751b7c.png">
+
+<img src='https://cloud.githubusercontent.com/assets/16606859/14807468/07981196-0ba7-11e6-869d-f507943148e1.png">
 
 
 
