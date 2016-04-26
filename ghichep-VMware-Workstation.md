@@ -262,10 +262,13 @@ Kiểu mạng NAT: máy ảo sẽ nằm ở một vùng địa chỉ IP khác v�
 Kiểu mạng host-only : máy tính ảo sẽ kết nối với máy tính thật bằng một vùng mạng riêng, nhưng không liên lạc được với bên ngoài
 
 Để thêm hoặc bớt VMnet ta có thể chọn **Add Network...** và **Remove Network...**
-<img src="https://cloud.githubusercontent.com/assets/16606859/14813158/9fcc4f2c-0bca-11e6-9caa-27f2c26afdbf.png">
 
 
+Một điều lưu ý là khi bạn copy một máy ảo thì chúng ta nên thay đổi địa chỉ MAC của nó, như chúng ta đều biết là đại chỉ MAC là đại chỉ duy nhất và chúng ta nên làm điều này để tránh lỗi khi làm việc với hệ thống máy ảo. Việc trùng lấp MAC sẽ ảnh hưởng có khi khiến hệ thống không hoạt động được.
+<img src="https://cloud.githubusercontent.com/assets/16606859/14815640/c04a65d4-0bd6-11e6-9f51-6b5ba8eeea66.png">
 
-### <a name="dhcp-ao"></a>c.Card mạng ảo (Virtual Network Adapter)
+### <a name="dhcp-ao"></a>c.DHCP Server ảo (Virtual DHCP Server)
+**DHCP (Dynamic Host Configuration) server ảo** cung cấp địa chỉ IP cho các máy ảo trong việc kết nối máy ảo vào các Switch ảo không có tính năng Bridged (VMnet0). Ví dụ như DHCP ảo cấp đến các máy ảo có kết nối đến Host-only và NAT.
+
 
 
