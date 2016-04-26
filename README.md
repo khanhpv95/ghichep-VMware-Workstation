@@ -13,7 +13,8 @@
 [II.Hướng dẫn sử dụng và cấu hình](#cau-hinh)
 * [1.Cấu hình tối thiểu](#cau-hinh1)
 * [2.Cài đặt VMware Workstation trên Windowns](#cau-hinh2)
-
+* [3.Cài đặt VMware Workstation trên Windowns](#cau-hinh3)
+* 
 ----
 
 ### <a name="gioi-thieu"></a>I.Giới thiệu về VMware Workstation
@@ -98,10 +99,11 @@ Cấu hình lí tưởng:
 
 <img src="https://cloud.githubusercontent.com/assets/16606859/14797506/4a234e4e-0b5d-11e6-9e06-619426e332e9.png">
 
-**"Thành quả: "**
+**Thành quả**
 
 <img src="https://cloud.githubusercontent.com/assets/16606859/14797508/4b9d01f2-0b5d-11e6-8f8d-57168677144c.png">
 
+####<a name="cau-hinh3"></a>3.Cài đặt VMware Workstation trên Linux
 
 
 
