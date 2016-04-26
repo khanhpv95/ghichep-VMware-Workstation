@@ -118,11 +118,26 @@ Cấu hình lí tưởng:
 
 <img src="https://cloud.githubusercontent.com/assets/16606859/14807438/ea33be34-0ba6-11e6-83cf-8cba679e9665.png">
 
-**Bước 2:** Chuyển sang tài khoản root với dòng lệnh **su -** . Cài đặt các Tools hỗ trợ với lệnh **yum groupinstall "Development tools" -y**.
+**Bước 2:** Chuyển sang tài khoản root với dòng lệnh:
+`su -`  
+Cài đặt các Tools hỗ trợ với lệnh:
+
+`yum groupinstall "Development tools`
 
 <img src="https://cloud.githubusercontent.com/assets/16606859/14807442/ed7fea9a-0ba6-11e6-93d8-3670cad2e21e.png">
 
-**Bước 9:** Cài VMware Tools.
+**Bước 3:** Cài VMware Tools:
+
+`yum install kernel-headers kernel-devel -y`
+
+
+**Bước 4:** Sau khi tải thành công file download ở Bước 1. Tiến hành phân quyền cho file
+
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807438/ea33be34-0ba6-11e6-83cf-8cba679e9665.png">
+
+
+
 
 
 
