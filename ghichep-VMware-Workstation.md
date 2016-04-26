@@ -104,6 +104,6 @@ Cấu hình lí tưởng:
 <img src="https://cloud.githubusercontent.com/assets/16606859/14797508/4b9d01f2-0b5d-11e6-8f8d-57168677144c.png">
 
 ####<a name="cau-hinh3"></a>3.Cài đặt VMware Workstation trên Linux
-
+* Đảm bảo các host đáp ứng các yêu cầu về hệ thống máy chủ. [Xem Yêu cầu hệ thống máy chủ](https://pubs.vmware.com/workstation-12/index.jsp?topic=%2Fcom.vmware.ws.using.doc%2FGUID-47896F7A-2C4F-457E-8ED1-6E5AEFDDD64A.html).
 
 
