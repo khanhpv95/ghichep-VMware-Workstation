@@ -133,8 +133,7 @@ Trên Cent OS
 `yum install kernel-headers kernel-devel -y`
 
 Trên Ubuntu 14.10
-``sudo apt-get install build-essential linux-headers-`uname -r`
-`
+``sudo apt-get install build-essential linux-headers-`uname -r``
 
 **Bước 4:** Sau khi tải thành công file download ở Bước 1. Truy cập tới thư mục chứa file và tiến hành phân quyền cho file
 `chmod u+x tênfile`
