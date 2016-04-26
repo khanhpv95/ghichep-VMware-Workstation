@@ -10,7 +10,7 @@
 
 * [2.Các tính năng của VMware Workstation](#gioi-thieu2)
 
-[II.Hướng dẫn sử dụng và cấu hình](#cau-hinh)
+[II.Hướng dẫn cài đặt và cấu hình](#cau-hinh)
 * [1.Cấu hình tối thiểu](#cau-hinh1)
 * [2.Cài đặt VMware Workstation trên Windows](#cau-hinh2)
 * [3.Cài đặt VMware Workstation trên Linux](#cau-hinh3)
@@ -24,7 +24,12 @@
 VMware Workstation là một phần mềm ảo hóa desktop mạnh mẽ dành cho các nhà phát triển/kiểm tra phần mềm và các chuyên gia IT cần chạy nhiều HĐH một lúc trên một máy vật lý. Mỗi máy ảo có thể chạy một hệ điều hành riêng biệt bao gồm các phiên bản của Microsoft Windows, Linux, BSD, và MS-DOS. VMware Workstation được phát hành và phát triển bởi VMware, một thành viên của EMC Corporation. 
 
 Với hàng triệu khách hàng và hàng loạt các giải thưởng quan trọng trong nhiều năm qua, VMware Workstation đã được chứng minh là một công ghệ giúp tăng năng suất và sự linh họat trong công việc. Đây là một công cụ không thể thiếu cho các nhà phát triển phần mềm và các chuyên gia IT trên toàn thế giới.
-
+|Ưu điểm | Nhược điểm| 
+|--------|-----------|
+| Giữa các máy ảo: Tính bảo mật cao do các máy ảo làm việc độc lập với nhau | Nếu hacker nắm quyền điều khiển máy tính chứa các máy ảo thì hacker có thể kiểm soát được tất cả các máy ảo trong nó|
+| Các tài nguyên vật lý được bảo vệ hoàn toàn vì các máy ảo có thiết bị ảo| Máy tính có cấu hình phần cứng thấp cài nhiều chương trình máy ảo, máy sẽ chậm và ảnh hưởng đến các chương trình khác|
+|Có thể lấy từ Internet về một chương trình lạ và thử vận hành trên máy ảo mà không sợ bị ảnh hưởng đến máy thật  | Nếu máy tính chứa các máy ảo bị hư thì các máy ảo thiết lập trên nó cũng bị ảnh hưởng |
+|Giải pháp giảm chi phí cho người dùng | |
 
 ####<a name="gioi-thieu2"></a>2.Các tính năng của VMware Workstation
 - Những tính năng chính
