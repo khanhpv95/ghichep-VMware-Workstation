@@ -109,5 +109,19 @@ Cấu hình lí tưởng:
 *  Phần mềm VMware Workstation Pro và key bản quyền. Xem [Phần mềm VMware Workstation Pro và License Key](https://pubs.vmware.com/workstation-12/index.jsp?topic=%2Fcom.vmware.ws.using.doc%2FGUID-47B91650-BCBE-49EE-997B-91AA0DBBAF04.html).
 *  Nếu bạn định sử dụng tích hợp Virtual Debugger cho Eclipse, cài đặt nó trên hệ thống máy chủ. Xem [Cài đặt tích hợp Virtual Debugger cho Eclipse](https://pubs.vmware.com/workstation-12/index.jsp?topic=%2Fcom.vmware.ws.using.doc%2FGUID-97F446E4-DB57-4641-A73C-36ABC2BD406D.html).
 *  Làm quen với các tùy chọn cài đặt dòng lệnh Linux. Bạn phải sử dụng các tùy chọn --custom để xác định các thiết lập cấu hình nhất định. Xem [Linux Command Line Tùy chọn cài đặt](https://pubs.vmware.com/workstation-12/index.jsp#com.vmware.ws.using.doc/GUID-42F4754B-7547-4A4D-AC08-353D321A051B.html#GUID-42F4754B-7547-4A4D-AC08-353D321A051B).
+*  Có quyền truy cập root trên hệ thống máy chủ.
+
+#####Cài đặt VMware Workstation trên CentOS
+**Bước 1:** Truy cập vào trang web [Download VMWare Workstation Pro](http://www.vmware.com/products/workstation/workstation-evaluation), Nhấp vào ô **"Download Now"** để tiến hành cài đặt.
+
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807438/ea33be34-0ba6-11e6-83cf-8cba679e9665.png">
+
+**Bước 2:** Chuyển sang tài khoản root với dòng lệnh **su -** . Cài đặt các Tools hỗ trợ với lệnh **yum groupinstall "Development tools" -y**.
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807442/ed7fea9a-0ba6-11e6-93d8-3670cad2e21e.png">
+
+**Bước 9:** Cài VMware Tools.
+
 
 
