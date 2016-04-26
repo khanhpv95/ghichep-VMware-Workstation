@@ -11,8 +11,11 @@
 * [2.Các tính năng của VMware Workstation](#gioi-thieu2)
 
 [II.Hướng dẫn cài đặt và cấu hình](#cau-hinh)
+
 * [1.Cấu hình tối thiểu](#cau-hinh1)
+
 * [2.Cài đặt VMware Workstation trên Windows](#cau-hinh2)
+
 * [3.Cài đặt VMware Workstation trên Linux](#cau-hinh3)
 
 ----
@@ -21,6 +24,7 @@
 
 
 ####<a name="gioi-thieu1"></a>1.Giới thiệu về VMware Workstation
+
 VMware Workstation là một phần mềm ảo hóa desktop mạnh mẽ dành cho các nhà phát triển/kiểm tra phần mềm và các chuyên gia IT cần chạy nhiều HĐH một lúc trên một máy vật lý. Mỗi máy ảo có thể chạy một hệ điều hành riêng biệt bao gồm các phiên bản của Microsoft Windows, Linux, BSD, và MS-DOS. VMware Workstation được phát hành và phát triển bởi VMware, một thành viên của EMC Corporation. 
 
 Với hàng triệu khách hàng và hàng loạt các giải thưởng quan trọng trong nhiều năm qua, VMware Workstation đã được chứng minh là một công ghệ giúp tăng năng suất và sự linh họat trong công việc. Đây là một công cụ không thể thiếu cho các nhà phát triển phần mềm và các chuyên gia IT trên toàn thế giới.
@@ -41,6 +45,7 @@ Với hàng triệu khách hàng và hàng loạt các giải thưởng quan tr�
   </ul>
 
 ####<a name="gioi-thieu2"></a>2.Các tính năng của VMware Workstation
+
 - Những tính năng chính
   <ul>
   <li>Khởi chạy đồng thời nhiều hệ điều hành khách trên một máy tính. </li>
@@ -63,7 +68,9 @@ Với hàng triệu khách hàng và hàng loạt các giải thưởng quan tr�
 
 
 ###<a name="cau-hinh"></a> II.Hướng dẫn sử dụng và cấu hình
+
 ####<a name="cau-hinh1"></a>1.Cấu hình tối thiểu
+
 Theo như nhà phát hành thì cấu hình có thể sử dụng VMware Workstation Pro 12 đó là:
   <ul>
   <li>Hệ điều hành chạy trên nền tảng 64-bit. </li>
@@ -77,6 +84,7 @@ Cấu hình lí tưởng:
   <li>Đối với máy tính PC (máy bàn): Corei3 và RAM 4GB trở lên.</li>
   </ul>
 ####<a name="cau-hinh2"></a>2.Cài đặt VMware Workstation trên Windowns
+
 **Bước 1:** Mở file cài đặt nhấn **"Next"**.
 
 <img src="https://cloud.githubusercontent.com/assets/16606859/14797489/3f34e0b0-0b5d-11e6-8996-524f7a06b82c.png">
@@ -120,13 +128,19 @@ Cấu hình lí tưởng:
 ####<a name="cau-hinh3"></a>3.Cài đặt VMware Workstation trên Linux
 
 * Các host đáp ứng các yêu cầu về hệ thống máy chủ. [Xem Yêu cầu hệ thống máy chủ](https://pubs.vmware.com/workstation-12/index.jsp?topic=%2Fcom.vmware.ws.using.doc%2FGUID-47896F7A-2C4F-457E-8ED1-6E5AEFDDD64A.html).
+
 *  Không có sản phẩm VMware không tương thích được cài đặt trên hệ thống máy chủ. Xem [Cài đặt Workstation Pro với các sản phẩm VMware khác](https://pubs.vmware.com/workstation-12/index.jsp?topic=%2Fcom.vmware.ws.using.doc%2FGUID-105FF68B-D0AA-424C-8F4D-7B25845604C5.html).
+
 *  Phần mềm VMware Workstation Pro và key bản quyền. Xem [Phần mềm VMware Workstation Pro và License Key](https://pubs.vmware.com/workstation-12/index.jsp?topic=%2Fcom.vmware.ws.using.doc%2FGUID-47B91650-BCBE-49EE-997B-91AA0DBBAF04.html).
+
 *  Nếu bạn định sử dụng tích hợp Virtual Debugger cho Eclipse, cài đặt nó trên hệ thống máy chủ. Xem [Cài đặt tích hợp Virtual Debugger cho Eclipse](https://pubs.vmware.com/workstation-12/index.jsp?topic=%2Fcom.vmware.ws.using.doc%2FGUID-97F446E4-DB57-4641-A73C-36ABC2BD406D.html).
+
 *  Làm quen với các tùy chọn cài đặt dòng lệnh Linux. Bạn phải sử dụng các tùy chọn --custom để xác định các thiết lập cấu hình nhất định. Xem [Linux Command Line Tùy chọn cài đặt](https://pubs.vmware.com/workstation-12/index.jsp#com.vmware.ws.using.doc/GUID-42F4754B-7547-4A4D-AC08-353D321A051B.html#GUID-42F4754B-7547-4A4D-AC08-353D321A051B).
+
 *  Có quyền truy cập root trên hệ thống máy chủ.
 
 #####Các bước cài đặt
+
 **Bước 1:** Truy cập vào trang web [Download VMWare Workstation Pro](http://www.vmware.com/products/workstation/workstation-evaluation), Nhấp vào ô **"Download Now"** để tiến hành cài đặt.
 
 
