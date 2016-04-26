@@ -255,20 +255,32 @@ Khi ta tạo các VMnet thì trên máy thật của ta sẽ tạo ra những ca
 
 Khi tạo một máy ảo mới (New Virtual Machine wizard), card mạng ảo được tạo ra cho máy ảo. Những card mạng này hiển thị trên hệ điều hành máy ảo như là AMD PCNET PCI hay Intel Pro/1000 MT Server Adapter
 
-<img src="https://cloud.githubusercontent.com/assets/16606859/14813158/9fcc4f2c-0bca-11e6-9caa-27f2c26afdbf.png">
-
-Kiểu mạng Briged : cho phép card mạng máy ảo kết nối trực tiếp với card mạng máy thật, giống như khi chúng được kết nối vào chung một switch. Khi đó, địa chỉ IP của máy ảo phải nằm cùng subnet với địa chỉ IP mà card mạng máy thật đang dùng. Đây là lựa chọn thường được sử dụng nhiều nhất khi tạo một mạng máy tính ảo.
-Kiểu mạng NAT: máy ảo sẽ nằm ở một vùng địa chỉ IP khác và phải thực hiện việc kỹ thuật chuyển đổi địa chỉ (NAT) khi liên lạc với máy tính bên ngoài.
-Kiểu mạng host-only : máy tính ảo sẽ kết nối với máy tính thật bằng một vùng mạng riêng, nhưng không liên lạc được với bên ngoài
-
 Để thêm hoặc bớt VMnet ta có thể chọn **Add Network...** và **Remove Network...**
 
+<img src="https://cloud.githubusercontent.com/assets/16606859/14813158/9fcc4f2c-0bca-11e6-9caa-27f2c26afdbf.png">
 
-Một điều lưu ý là khi bạn copy một máy ảo thì chúng ta nên thay đổi địa chỉ MAC của nó, như chúng ta đều biết là đại chỉ MAC là đại chỉ duy nhất và chúng ta nên làm điều này để tránh lỗi khi làm việc với hệ thống máy ảo. Việc trùng lấp MAC sẽ ảnh hưởng có khi khiến hệ thống không hoạt động được.
+Chế độ Briged : ở chế độ này thì card mạng trên máy ảo sẹ được gắn vào VMnet0 và VMnet0 này liên kết trực tiếp với card mạng vật lý. Ở chế độ này máy ảo sẽ kết nối internet thông qua lớp card mạng vật lý và có chung lớp mạng với card mạng vật lý.. Khi đó, địa chỉ IP của máy ảo phải nằm cùng subnet với địa chỉ IP mà card mạng máy thật đang dùng. Đây là lựa chọn thường được sử dụng nhiều nhất khi tạo một mạng máy tính ảo.
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14816074/1ba6632c-0bd9-11e6-9932-cc52d6a49b9b.png">
+
+Chế độ NAT: ở chế độ này thì card mạng của máy ảo kết nối với VMnet8, VMnet8 cho phép máy ảo đi internet thông qua cơ chế NAT (NAT device). Lúc này lớp mạng bên trong máy ảo khác hẳn với lớp mạng của card vật lý bên ngoài. IP của card mạng sẽ được cấp bởi DHCP VMnet8 cấp, trong trường hợp bạn muốn thiết lập IP tĩnh cho card mạng máy ảo bạn phải đảm bảo chung lớp mạng với VNnet8 thì máy ảo mới có thể đi internet.
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14816047/f5505e30-0bd8-11e6-8911-636c6fb354c5.png">
+
+Cơ chế host-only : ở cơ chế này máy ảo được kết nối với VMnet có tính có tính năng Host-only, trong trường hợp hình này là VMnet1 (bạn có thể add nhiều VMnet Host-only). VNnet Host-only kết nối ra một card mạng ảo tương ứng ngoài máy thật (như đã nói ở phần trên, khi ta add một VMnet thì có một card tương ứng với VMnet sẽ được tạo ra ở phần trên. Trường hợp này là VMware Network Adapter VMnet1).
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14816049/f6243e30-0bd8-11e6-8d30-3d7043e3d0de.png">
+
+
+Một điều lưu ý là khi bạn copy một máy ảo thì chúng ta nên thay đổi địa chỉ MAC của nó, như chúng ta đều biết là đại chỉ MAC là đại chỉ duy nhất và chúng ta nên làm điều này để tránh lỗi khi làm việc với hệ thống máy ảo. Việc trùng lấp MAC sẽ ảnh hưởng có khi khiến hệ thống không hoạt động được. Để thay đổi địa chỉ MAC ta chọn **Advanced** sau đó chọn **Generate**, phần mềm sẽ tự động tạo địa chỉ MAC cho chúng ta.
 <img src="https://cloud.githubusercontent.com/assets/16606859/14815640/c04a65d4-0bd6-11e6-9f51-6b5ba8eeea66.png">
 
 ### <a name="dhcp-ao"></a>c.DHCP Server ảo (Virtual DHCP Server)
 **DHCP (Dynamic Host Configuration) server ảo** cung cấp địa chỉ IP cho các máy ảo trong việc kết nối máy ảo vào các Switch ảo không có tính năng Bridged (VMnet0). Ví dụ như DHCP ảo cấp đến các máy ảo có kết nối đến Host-only và NAT.
+
+<img src="https://cloud.githubusercontent.com/assets/16606859/14815783/831686ce-0bd7-11e6-9c9c-603c3b47b4be.png">
+
+Nếu bạn muốn bỏ chế độ DHCP của VMnet nào, bạn chỉ cần bỏ dấu check tại **Use local DHCP service to distribute IP address to VMs**. Bạn có thể tinh chỉnh lại DHCP bạn có thể chọn vào **DHCP Setting**, trong này bạn có thể chỉnh lại các tham số thời gian, tham số Scope IP (lưu ý: bạn chỉ có thể sửa lại vùng địa chỉ host chứ không được chỉnh lại vùng network)
 
 
 
