@@ -250,7 +250,9 @@ Các thành phần hình thành nên mạng ảo trong VMware gồm **switch ả
 <img src="https://cloud.githubusercontent.com/assets/16606859/14812610/0ad3c5c8-0bc8-11e6-8fb2-5efc83d28152.png">
 
 Khi ta tạo các VMnet thì trên máy thật của ta sẽ tạo ra những card mạng ảo tương ứng, riêng VMnet0 kết nối trực tiếp với card mạng vật lý nên không tạo ra card VMnet.
+
 <img src="https://cloud.githubusercontent.com/assets/16606859/14815534/1d64d110-0bd6-11e6-856a-bd6943c12fe4.png">
+
 #####<a name="card-mang-ao"></a>b.Card mạng ảo (Virtual Network Adapter)
 
 Khi tạo một máy ảo mới (New Virtual Machine wizard), card mạng ảo được tạo ra cho máy ảo. Những card mạng này hiển thị trên hệ điều hành máy ảo như là AMD PCNET PCI hay Intel Pro/1000 MT Server Adapter
@@ -275,11 +277,13 @@ Cơ chế host-only : ở cơ chế này máy ảo được kết nối với VM
 
 
 Một điều lưu ý là khi bạn copy một máy ảo thì chúng ta nên thay đổi địa chỉ MAC của nó, như chúng ta đều biết là đại chỉ MAC là đại chỉ duy nhất và chúng ta nên làm điều này để tránh lỗi khi làm việc với hệ thống máy ảo. Việc trùng lấp MAC sẽ ảnh hưởng có khi khiến hệ thống không hoạt động được. Để thay đổi địa chỉ MAC ta chọn **Advanced** sau đó chọn **Generate**, phần mềm sẽ tự động tạo địa chỉ MAC cho chúng ta.
+
 <img src="https://cloud.githubusercontent.com/assets/16606859/14815640/c04a65d4-0bd6-11e6-9f51-6b5ba8eeea66.png">
 
 
 `Mẹo: Trong trường hợp bạn cần làm lab Load balancing, bạn cần 2 kết nối internet thì trên máy ảo bạn có thể add 2 card mạng, một card chọn cơ chế NAT và một card chọn cơ chế Bridge.`
 ### <a name="dhcp-ao"></a>c.DHCP Server ảo (Virtual DHCP Server)
+
 **DHCP (Dynamic Host Configuration) server ảo** cung cấp địa chỉ IP cho các máy ảo trong việc kết nối máy ảo vào các Switch ảo không có tính năng Bridged (VMnet0). Ví dụ như DHCP ảo cấp đến các máy ảo có kết nối đến Host-only và NAT.
 
 <img src="https://cloud.githubusercontent.com/assets/16606859/14815783/831686ce-0bd7-11e6-9c9c-603c3b47b4be.png">
