@@ -175,7 +175,7 @@ Các bước cài đặt tiếp theo:
 
 <img src="https://cloud.githubusercontent.com/assets/16606859/14807467/06d8a3ec-0ba7-11e6-8029-bce2d7751b7c.png">
 
-<img src='https://cloud.githubusercontent.com/assets/16606859/14807468/07981196-0ba7-11e6-869d-f507943148e1.png">
+<img src="https://cloud.githubusercontent.com/assets/16606859/14807468/07981196-0ba7-11e6-869d-f507943148e1.png">
 
 
 
