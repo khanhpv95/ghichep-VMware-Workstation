@@ -236,22 +236,22 @@ Các bước cài đặt tiếp theo:
 
 <img src="https://cloud.githubusercontent.com/assets/16606859/14807468/07981196-0ba7-11e6-869d-f507943148e1.png">
 
-###<a name="network"></a>[III.Card mạng và Network]
+###<a name="network"></a>III.Card mạng và Network
 
-####<a name="card-mang"></a>[1.Card mạng trong VMware]
+####<a name="card-mang"></a>1.Card mạng trong VMware
 
 Sử dụng máy ảo để triển khai một môi trường đa hệ điều hành, hoặc để thực thi các ứng dụng đơn nền khác nhau, trên cùng một máy tính vật lý là một giải pháp được chọn phổ biến hiện nay, bởi tính đơn giản và hiệu quả của nó.Với những người đang học tập, nghiên cứu về mạng máy tính hoặc đang triển khai các hệ thống dựa trên mạng máy tính thì giải pháp máy ảo là thực sự cần thiết với họ. Các phần mềm máy ảo giúp họ dễ dàng tạo ra một mạng máy tính “như thật” trên một máy tính vật lý.
 Các thành phần hình thành nên mạng ảo trong VMware gồm **switch ảo**, **card mạng ảo**, **DHCP server ảo** và **thiết bị NAT**.
 
 
-#####<a name="switch-ao"></a>[a.Switch ảo (Virtual Switch)]
+#####<a name="switch-ao"></a>a.Switch ảo (Virtual Switch)
 **Switch ảo (Virtual Switch)** cũng giống như switch vật lý, một Virtual Switch kết nối các thành phần mạng ảo lại với nhau. Những  switch ảo hay còn gọi là mạng ảo, chúng có tên là VMnet0, VMnet1, VMnet2… một số switch ảo được gắn vào mạng một cách mặc định. Mặc định khi ta cài Wmware thì có sẵn 3 Switch ảo như sau: VMnet0 chế độ Bridged (cầu nối), VMnet8 chế độ NAT và VMnet1 chế độ Host-only. (Ta có thể thêm, bớt, chỉnh các option của VMnet bằng cách vào menu **Edit -> Virtual Network Editor**...)
 
 <img src="https://cloud.githubusercontent.com/assets/16606859/14812610/0ad3c5c8-0bc8-11e6-8fb2-5efc83d28152.png">
 
 Khi ta tạo các VMnet thì trên máy thật của ta sẽ tạo ra những card mạng ảo tương ứng, riêng VMnet0 kết nối trực tiếp với card mạng vật lý nên không tạo ra card VMnet.
 
-    * **Use bridged connection** : cho phép card mạng máy ảo kết nối trực tiếp với card mạng máy thật, giống như khi chúng được kết nối vào chung một switch. Khi đó, địa chỉ IP của máy ảo phải nằm cùng subnet với địa chỉ IP mà card mạng máy thật đang dùng. Đây là lựa chọn thường được sử dụng nhiều nhất khi tạo một mạng máy tính ảo.
-    * **Use network address translation (NAT)**: máy ảo sẽ nằm ở một vùng địa chỉ IP khác và phải thực hiện việc kỹ thuật chuyển đổi địa chỉ (NAT) khi liên lạc với máy tính bên ngoài.
-    * **Use host-only networking**: máy tính ảo sẽ kết nối với máy tính thật bằng một vùng mạng riêng, nhưng không liên lạc được với bên ngoài
+    **Use bridged connection** : cho phép card mạng máy ảo kết nối trực tiếp với card mạng máy thật, giống như khi chúng được kết nối vào chung một switch. Khi đó, địa chỉ IP của máy ảo phải nằm cùng subnet với địa chỉ IP mà card mạng máy thật đang dùng. Đây là lựa chọn thường được sử dụng nhiều nhất khi tạo một mạng máy tính ảo.
+    **Use network address translation (NAT)**: máy ảo sẽ nằm ở một vùng địa chỉ IP khác và phải thực hiện việc kỹ thuật chuyển đổi địa chỉ (NAT) khi liên lạc với máy tính bên ngoài.
+    **Use host-only networking**: máy tính ảo sẽ kết nối với máy tính thật bằng một vùng mạng riêng, nhưng không liên lạc được với bên ngoài
 
