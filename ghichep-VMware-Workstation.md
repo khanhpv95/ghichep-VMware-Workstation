@@ -2,7 +2,7 @@
 ----
 ## Mục Lục
 
-[I.Giới thiệu về VMware Workstation](#gioi-thieu)
+###[I.Giới thiệu về VMware Workstation](#gioi-thieu)
 
 
 * [1.Giới thiệu về VMware Workstation](#gioi-thieu1)
@@ -10,7 +10,7 @@
 
 * [2.Các tính năng của VMware Workstation](#gioi-thieu2)
 
-[II.Hướng dẫn cài đặt và cấu hình](#cau-hinh)
+###[II.Hướng dẫn cài đặt và cấu hình](#cau-hinh)
 
 * [1.Cấu hình tối thiểu](#cau-hinh1)
 
@@ -18,7 +18,7 @@
 
 * [3.Cài đặt VMware Workstation trên Linux](#cau-hinh3)
  
-[III.Card mạng trong VMware Workstation](#network)
+###[III.Card mạng trong VMware Workstation](#network)
 
 * [1.Switch ảo ( Virtual Switch)](#switch-ao)
 
