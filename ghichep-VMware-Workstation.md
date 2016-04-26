@@ -112,7 +112,7 @@ Cấu hình lí tưởng:
 *  Làm quen với các tùy chọn cài đặt dòng lệnh Linux. Bạn phải sử dụng các tùy chọn --custom để xác định các thiết lập cấu hình nhất định. Xem [Linux Command Line Tùy chọn cài đặt](https://pubs.vmware.com/workstation-12/index.jsp#com.vmware.ws.using.doc/GUID-42F4754B-7547-4A4D-AC08-353D321A051B.html#GUID-42F4754B-7547-4A4D-AC08-353D321A051B).
 *  Có quyền truy cập root trên hệ thống máy chủ.
 
-#####Cài đặt VMware Workstation trên CentOS
+#####Các bước cài đặt
 **Bước 1:** Truy cập vào trang web [Download VMWare Workstation Pro](http://www.vmware.com/products/workstation/workstation-evaluation), Nhấp vào ô **"Download Now"** để tiến hành cài đặt.
 
 
@@ -125,12 +125,16 @@ Cài đặt các Tools hỗ trợ với lệnh:
 
 `yum groupinstall "Development tools`
 
-c
 
 **Bước 3:** Cài VMware Tools:
 
+Trên Cent OS
+
 `yum install kernel-headers kernel-devel -y`
 
+Trên Ubuntu 14.10
+``sudo apt-get install build-essential linux-headers-`uname -r`
+`
 
 **Bước 4:** Sau khi tải thành công file download ở Bước 1. Truy cập tới thư mục chứa file và tiến hành phân quyền cho file
 `chmod u+x tênfile`
