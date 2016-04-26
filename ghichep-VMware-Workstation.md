@@ -14,7 +14,6 @@
 * [1.Cấu hình tối thiểu](#cau-hinh1)
 * [2.Cài đặt VMware Workstation trên Windows](#cau-hinh2)
 * [3.Cài đặt VMware Workstation trên Linux](#cau-hinh3)
-* 
 ----
 
 ### <a name="gioi-thieu"></a>I.Giới thiệu về VMware Workstation
