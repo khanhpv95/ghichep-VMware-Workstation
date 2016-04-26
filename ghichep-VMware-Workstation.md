@@ -125,6 +125,7 @@ Cài đặt các Tools hỗ trợ với lệnh:
 
 `yum groupinstall "Development tools`
 
+Ubuntu không cần lệnh này
 
 **Bước 3:** Cài VMware Tools:
 
@@ -133,6 +134,7 @@ Trên Cent OS
 `yum install kernel-headers kernel-devel -y`
 
 Trên Ubuntu 14.10
+
 ``sudo apt-get install build-essential linux-headers-`uname -r``
 
 **Bước 4:** Sau khi tải thành công file download ở Bước 1. Truy cập tới thư mục chứa file và tiến hành phân quyền cho file
@@ -144,7 +146,17 @@ Ví dụ:
 
 **Bước 5:** Tiến hành giải nén file cài đặt
 
+Trên CentOS ta chạy dòng lệnh
+
 `./tênfile`
+
+Trên Ubuntu ta chạy:
+`sudo sh ./tênfile`
+
+và
+
+`export LD_LIBRARY_PATH=/usr/lib/vmware/lib/libglibmm-2.4.so.1/:$LD_LIBRARY_PATH
+vmware`
 
 Ví dụ:
 
