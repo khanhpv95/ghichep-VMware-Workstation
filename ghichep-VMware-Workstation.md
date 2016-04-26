@@ -104,6 +104,10 @@ Cấu hình lí tưởng:
 <img src="https://cloud.githubusercontent.com/assets/16606859/14797508/4b9d01f2-0b5d-11e6-8f8d-57168677144c.png">
 
 ####<a name="cau-hinh3"></a>3.Cài đặt VMware Workstation trên Linux
-* Đảm bảo các host đáp ứng các yêu cầu về hệ thống máy chủ. [Xem Yêu cầu hệ thống máy chủ](https://pubs.vmware.com/workstation-12/index.jsp?topic=%2Fcom.vmware.ws.using.doc%2FGUID-47896F7A-2C4F-457E-8ED1-6E5AEFDDD64A.html).
+* Các host đáp ứng các yêu cầu về hệ thống máy chủ. [Xem Yêu cầu hệ thống máy chủ](https://pubs.vmware.com/workstation-12/index.jsp?topic=%2Fcom.vmware.ws.using.doc%2FGUID-47896F7A-2C4F-457E-8ED1-6E5AEFDDD64A.html).
+*  Không có sản phẩm VMware không tương thích được cài đặt trên hệ thống máy chủ. Xem [Cài đặt Workstation Pro với các sản phẩm VMware khác](https://pubs.vmware.com/workstation-12/index.jsp?topic=%2Fcom.vmware.ws.using.doc%2FGUID-105FF68B-D0AA-424C-8F4D-7B25845604C5.html).
+*  Phần mềm VMware Workstation Pro và key bản quyền. Xem [Phần mềm VMware Workstation Pro và License Key](https://pubs.vmware.com/workstation-12/index.jsp?topic=%2Fcom.vmware.ws.using.doc%2FGUID-47B91650-BCBE-49EE-997B-91AA0DBBAF04.html).
+*  Nếu bạn định sử dụng tích hợp Virtual Debugger cho Eclipse, cài đặt nó trên hệ thống máy chủ. Xem [Cài đặt tích hợp Virtual Debugger cho Eclipse](https://pubs.vmware.com/workstation-12/index.jsp?topic=%2Fcom.vmware.ws.using.doc%2FGUID-97F446E4-DB57-4641-A73C-36ABC2BD406D.html).
+*  Làm quen với các tùy chọn cài đặt dòng lệnh Linux. Bạn phải sử dụng các tùy chọn --custom để xác định các thiết lập cấu hình nhất định. Xem [Linux Command Line Tùy chọn cài đặt](https://pubs.vmware.com/workstation-12/index.jsp#com.vmware.ws.using.doc/GUID-42F4754B-7547-4A4D-AC08-353D321A051B.html#GUID-42F4754B-7547-4A4D-AC08-353D321A051B).
 
 
