@@ -257,6 +257,8 @@ Khi tạo một máy ảo mới (New Virtual Machine wizard), card mạng ảo �
 
 Để thêm hoặc bớt VMnet ta có thể chọn **Add Network...** và **Remove Network...**
 
+````Lưu ý khi **Add Network** nếu muốn add thêm card mạng thì nên add từng card sau đó thoát hẳn ra ngoài rồi tiếp tục add card thứ 2, làm tương tự với các card muốn thêm tiếp theo. Nếu các card vmnet này được add cùng một lúc khi khởi tạo máy ảo thì sau này khi đặt IP cho các interface của máy ảo có thể xảy ra hiện tượng ** đảo IP hai interface** rất khó chịu và khó khăn trong việc sửa lỗi``.``
+
 <img src="https://cloud.githubusercontent.com/assets/16606859/14813158/9fcc4f2c-0bca-11e6-9caa-27f2c26afdbf.png">
 
 Chế độ Briged : ở chế độ này thì card mạng trên máy ảo sẹ được gắn vào VMnet0 và VMnet0 này liên kết trực tiếp với card mạng vật lý. Ở chế độ này máy ảo sẽ kết nối internet thông qua lớp card mạng vật lý và có chung lớp mạng với card mạng vật lý.. Khi đó, địa chỉ IP của máy ảo phải nằm cùng subnet với địa chỉ IP mà card mạng máy thật đang dùng. Đây là lựa chọn thường được sử dụng nhiều nhất khi tạo một mạng máy tính ảo.
