@@ -151,7 +151,7 @@ Cấu hình lí tưởng:
 
 Cài đặt các Tools hỗ trợ với lệnh:
 
-`yum groupinstall "Development tools`
+`yum groupinstall "Development tools"`
 
 Ubuntu không cần lệnh này
 
